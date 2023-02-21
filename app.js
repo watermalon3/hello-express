@@ -21,5 +21,5 @@ app.get(`/friend`, (request, response) => {
 app.get(`/:page`, (request, response) => {
   console.log(request.params);
   let page = request.params.page;
-  response.send(`you are on the ${page} page`);
+  response.send(`you are on the ${page} page and potato`);
 });
